@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ag_gtk_utils"
+version = "0.1.0"
+description = "Shared GTK utilities for Shine and Rheolwyr"
+
+[tool.setuptools.packages.find]
+where = ["."]
