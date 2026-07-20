@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ag_gtk_utils"
+version = "0.1.0"
+description = "AntiGravity GTK utilities for Python applications."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pynput",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
