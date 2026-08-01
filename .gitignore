@@ -35,3 +35,4 @@ env/
 # IDEs
 .vscode/
 .idea/
+sonar-project.properties
